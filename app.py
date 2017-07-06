@@ -9,7 +9,7 @@ app = dash.Dash("Sankey Diagram Example", server=server)
 
 app.layout = html.Div([
     dcc.Markdown("Sankey Diagram", className="header"),
-    html.Iframe(src="https://plot.ly/~alishobeiri/884/energy-forecast-for-2050-uk-department-of-energy-climate-change/.embed?modebar=false&link=false&autosize=true",
+    html.Iframe(src="https://plot.ly/~alishobeiri/884.embed?modebar=false&link=false&autosize=true",
                 seamless="seamless", style={'border': '0'}, width="100%", height="560"),
     dcc.Markdown("Source: [Department of Energy & Climate Change](http://www.decc.gov.uk/en/content/cms/tackling/2050/calculator_on/calculator_on.aspx),\
                   [Tom Counsell](https://tamc.github.io/Sankey/) - This dash app is a recreation of [Mike Bostock's Example](https://bost.ocks.org/mike/sankey/)",
